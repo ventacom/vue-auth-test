@@ -1,0 +1,27 @@
+{
+  "title": {
+    "first":"Please, login...",
+    "second":"Made with"
+  },
+  "placeholder": {
+    "user-name": "User name",
+    "password": "Password"
+  },
+  "button": {
+    "login": "Login"
+  },
+  "error": {
+    "user-name-empty": "Username can not be empty!",
+    "user-name-length": "Username must have at least {num} letters!",
+    "user-name-alphanum": "Username must have only letters or numbers!",
+    "password": "Password must not be empty!",
+    "capslock": "Maybe, CapsLock is pressed!",
+    "login": "Login or password is incorrect!"
+  },
+  "info": {
+    "register": "Not registered?"
+  },
+  "link": {
+    "account": "Create an account"
+  }
+}

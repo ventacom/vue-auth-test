@@ -1,0 +1,15 @@
+{
+  "title": {
+    "first": "User Information",
+    "second": "Made with"
+  },
+  "user": {
+    "id": "User ID:",
+    "name": "User Name:",
+    "email": "User Email:",
+    "avatar": "Avatar Path:"
+  },
+  "button": {
+    "logout": "Logout"
+  }
+}

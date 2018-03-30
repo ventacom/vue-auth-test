@@ -1,0 +1,35 @@
+{
+  "title": {
+    "first":"Register Form",
+    "second":"Made with",
+    "success": {
+      "first": "Account successfully created!"
+    }
+  },
+  "placeholder": {
+    "user-name": "User name",
+    "email": "Email",
+    "password": "Password",
+    "repassword": "Re-Password"
+  },
+  "button": {
+    "register": "Register"
+  },
+  "error": {
+    "user-name-empty": "Username can not be empty!",
+    "user-name-length": "Username must have at least {num} letters!",
+    "user-name-alphanum": "Username must have only letters or numbers!",
+    "email": "Please, type correct email",
+    "password-empty": "Password must not be empty!",
+    "password-length": "Password must have at least 6 symbol!",
+    "repassword": "Passwords must be identical!",
+    "capslock": "Maybe, CapsLock is pressed!",
+    "singup": "This username is already used!"
+  },
+  "info": {
+    "account": "Have account?"
+  },
+  "link": {
+    "login": "Please login"
+  }
+}

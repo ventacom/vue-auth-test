@@ -1,0 +1,12 @@
+{
+  "ask": {
+    "upload": "Upload new avatar?"
+  },
+  "button": {
+    "yes": "Yes",
+    "no": "No"
+  },
+  "error": {
+    "upload": "Error uploading avatar!"
+  }
+}
