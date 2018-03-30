@@ -1,5 +1,6 @@
 import User from '../../api/user'
-import { host, defaultImage } from '../../system/constants'
+import { host } from '../../system/constants'
+import defaultImg from '../../assets/img/user-photo.png'
 
 const state = {
   user: {
@@ -122,7 +123,7 @@ const getters = {
     if (imagePath) {
       loadedImage = host + imagePath.path
     } else {
-      loadedImage = defaultImage
+      loadedImage = defaultImg
     }
     return loadedImage
   }
