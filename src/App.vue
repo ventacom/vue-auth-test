@@ -4,7 +4,7 @@
 
     <page-header v-if="willShown"></page-header>
 
-    <main class="content mt-5">
+    <main class="content">
       <router-view></router-view>
     </main>
 
@@ -52,12 +52,8 @@
 
 <style lang="scss">
   @import "../node_modules/bootstrap/scss/bootstrap";
-  .page {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
   .content {
-    flex: 1;
+    margin-top: 56px;
+    min-height: calc(100vh - 106px);
   }
 </style>
