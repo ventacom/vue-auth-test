@@ -6,6 +6,9 @@
   import singupForm from '../components/singupForm/singupForm'
 
   export default {
+    metaInfo: {
+      title: 'SingUp Page'
+    },
     components: {
       singupForm
     }

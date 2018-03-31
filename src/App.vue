@@ -20,6 +20,16 @@
   import pageFooter from './components/pageFooter/pageFooter'
 
   export default {
+    metaInfo () {
+      return {
+        meta: [
+          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+          { name: 'format-detection', content: 'telephone=no' }
+        ],
+        title: 'Vue Auth Test',
+        titleTemplate: '%s | ' + this.$i18n.t('meta.title')
+      }
+    },
     components: {
       pageHeader,
       pageFooter

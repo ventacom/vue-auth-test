@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "title": "User Info"
+  },
   "title": {
     "first": "User Information",
     "second": "Made with"

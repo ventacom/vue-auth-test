@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "title": "Login"
+  },
   "title": {
     "first":"Please, login...",
     "second":"Made with"

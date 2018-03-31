@@ -6,7 +6,7 @@
         <h2 class="text-center mb-1">{{ $t('title.first') }}</h2>
         <p class="text-center text-secondary mb-4">{{ $t('title.second') }} <b>Bootstrap</b></p>
         <div class="row">
-          <div class="col-md-6 mx-auto">
+          <div class="col-12 col-sm-11 col-md-6 mx-auto">
             <div class="card rounded-2 box-shadow">
               <div class="card-header border-0 pb-0 bg-white">
 
@@ -45,6 +45,11 @@
     data () {
       return {
         isSaving: false
+      }
+    },
+    metaInfo () {
+      return {
+        title: this.$i18n.t('meta.title')
       }
     },
     components: {

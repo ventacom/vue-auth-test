@@ -4,7 +4,7 @@ import store from '../store/index'
 
 import Login from '../pages/login'
 import Singup from '../pages/singup'
-import Page from '../pages/page'
+import Page from '../pages/page/page'
 
 Vue.use(Router)
 

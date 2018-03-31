@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "title": "My First Vue App"
+  },
   "message": {
     "hello": "hello world"
   }

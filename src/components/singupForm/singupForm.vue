@@ -18,7 +18,7 @@
         <h2 class="text-center mb-1">{{ $t('title.first') }}</h2>
         <p class="text-center text-secondary mb-4">{{ $t('title.second') }} <b>Bootstrap</b></p>
         <div class="row">
-          <div class="col-md-6 mx-auto">
+          <div class="col-6 col-sm-11 mx-auto">
             <div class="card rounded-2">
               <div class="btn-group p-1 ml-auto">
                 <button type="button"
