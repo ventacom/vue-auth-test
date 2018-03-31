@@ -190,6 +190,11 @@
         }
       }
     },
+    metaInfo () {
+      return {
+        title: this.$i18n.t('meta.title')
+      }
+    },
     components: {
       uploadAvatar
     },
