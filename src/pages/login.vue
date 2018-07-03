@@ -9,25 +9,24 @@
 </template>
 
 <script>
-  import authForm from '../components/authForm/authForm'
-  import userInfo from '../components/userInfo/userInfo'
-  import { mapGetters, mapActions } from 'vuex'
+import authForm from '../components/authForm/authForm'
+import userInfo from '../components/userInfo/userInfo'
+import { mapGetters, mapActions } from 'vuex'
 
-  export default {
-    components: {
-      authForm,
-      userInfo
-    },
-    methods: {
-      ...mapGetters(['isLoggedIn']),
-      ...mapActions(['check'])
-    },
-    created () {
-      // this.check();
-    }
+export default {
+  components: {
+    authForm,
+    userInfo
+  },
+  methods: {
+    ...mapGetters(['isLoggedIn']),
+    ...mapActions(['check'])
+  },
+  created() {
+    // this.check();
   }
+}
 </script>
 
 <style lang="scss" scoped>
-
 </style>
